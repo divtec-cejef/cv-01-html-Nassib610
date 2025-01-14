@@ -1,77 +1,123 @@
-* {
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 body {
     font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.6; /* Slightly increased for better readability */
-    color: darkblue;
-    background-image: url('img/img-plage.jpg');
-    background-size: cover; /* Ensure the image covers the background */
-    background-repeat: no-repeat; /* Avoid repetition of the background image */
-    background-attachment: fixed; /* Make the background image fixed */
+    background: #f4f4f4 url('background.jpg') center/cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 header {
-    border: 10px solid yellow; /* Added 'solid' for proper border style */
-    padding: 1rem; /* Added padding for better spacing */
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #0073e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    color: #0073e6;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 footer {
-    max-width: 100%;
-    padding: 1rem; /* Added padding for better spacing */
-    background-color: rgba(255, 255, 255, 0.8); /* Added a light background for better contrast */
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 40px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+footer a {
+    color: #0073e6;
 }
 
-a {
-    color: deeppink;
-    text-decoration: none;
-    font-weight: bold; /* Added font-weight for emphasis */
-}
-
-a:hover {
-    color: darkmagenta;
-    text-decoration: underline; /* Added underline for better hover visibility */
+footer a:hover {
+    text-decoration: underline;
 }
 
 #text-color {
-    color: green;
-    font-weight: bold; /* Added bold for emphasis */
-}
-
-#text-alignement {
-    text-align: right;
-    margin-right: 2rem; /* Added margin for spacing */
-}
-
-#text-width {
-    width: 60px;
-    display: inline-block; /* Ensured inline-block for consistent layout */
-}
-
-#text-em {
-    width: 3em;
-    display: inline-block;
-}
-
-#text-rem {
-    width: 1.5rem;
-    display: inline-block;
-}
-
-#font-face {
-    font-family: Calibri, sans-serif; /* Corrected from 'font-face' to 'font-family' */
+    color: #0073e6;
+    font-size: 1.2rem;
 }
 
 #text-shadow {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-style: italic; /* Added italic for visual distinction */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#text-alignement {
+    text-align: justify;
+}
+
+#text-em {
+    font-style: italic;
+}
+
+#text-width {
+    font-weight: bold;
+}
+
+#text-rem {
+    font-size: 1.5rem;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/custom-font.woff2') format('woff2');
 }
