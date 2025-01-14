@@ -22,7 +22,7 @@ footer {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%; /* Reduced the size of the first image */
     height: auto;
 }
 
