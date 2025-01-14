@@ -12,7 +12,7 @@ body {
     background-image: url('img/img-plage.jpg');
 }
 header {
-    border: 10px solid yellow;
+    border: 10px yellow;
 }
 footer {
     max-width: 100%;
@@ -32,7 +32,7 @@ a:hover {
     color: darkmagenta;
 }
 #text-color {
-    color: tomato;
+    color: green;
 }
 #text-alignement {
     text-align: right;
