@@ -12,7 +12,7 @@ body {
     background-image: url('img/img-plage.jpg');
 }
 header {
-    border: 10px solid red;
+    border: 10px solid yellow;
 }
 footer {
     max-width: 100%;
