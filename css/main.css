@@ -1,48 +1,91 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
-
 body {
     font-family: Arial, sans-serif;
-    font-size: 1.2rem;
-    color: darkblue;
-    background: url('img/img-plage.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
-
 header {
-    border: 10px solid yellow;
-    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
-
-footer {
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-img {
-    max-width: 80%; /* Reduced the size of the first image */
+header a.logo img {
+    width: 80px;
     height: auto;
 }
-
-a {
-    color: deeppink;
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav ul.menu li {
+    margin: 0 15px;
+}
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+nav ul.menu li a:hover {
+    text-decoration: underline;
+}
+h1#text-color {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: #4CAF50;
+}
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+ul li {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+ul li#text-shadow {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+ul li#text-alignement {
+    text-align: justify;
+}
+ul li#text-em {
+    font-style: italic;
+}
+ul li#text-width {
+    font-weight: bold;
+}
+ul li#text-rem {
+    font-size: 1.2rem;
+    color: #444;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #4CAF50;
     text-decoration: none;
 }
-
-a:hover {
-    color: darkmagenta;
+footer a:hover {
+    text-decoration: underline;
 }
-
-#text-color {
-    color: green;
-}
-
-#text-alignement {
-    text-align: right;
-}
-
-#text-shadow {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
+ 
