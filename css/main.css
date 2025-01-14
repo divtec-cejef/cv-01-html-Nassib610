@@ -7,48 +7,71 @@ body {
     font-family: Arial, sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
-    line-height: 1.4;
+    line-height: 1.6; /* Slightly increased for better readability */
     color: darkblue;
     background-image: url('img/img-plage.jpg');
+    background-size: cover; /* Ensure the image covers the background */
+    background-repeat: no-repeat; /* Avoid repetition of the background image */
+    background-attachment: fixed; /* Make the background image fixed */
 }
+
 header {
-    border: 10px yellow;
+    border: 10px solid yellow; /* Added 'solid' for proper border style */
+    padding: 1rem; /* Added padding for better spacing */
 }
+
 footer {
     max-width: 100%;
+    padding: 1rem; /* Added padding for better spacing */
+    background-color: rgba(255, 255, 255, 0.8); /* Added a light background for better contrast */
 }
+
 img {
     max-width: 100%;
     height: auto;
-    width: auto;
 }
 
 a {
     color: deeppink;
     text-decoration: none;
+    font-weight: bold; /* Added font-weight for emphasis */
 }
 
 a:hover {
     color: darkmagenta;
+    text-decoration: underline; /* Added underline for better hover visibility */
 }
+
 #text-color {
     color: green;
+    font-weight: bold; /* Added bold for emphasis */
 }
+
 #text-alignement {
     text-align: right;
+    margin-right: 2rem; /* Added margin for spacing */
 }
+
 #text-width {
     width: 60px;
+    display: inline-block; /* Ensured inline-block for consistent layout */
 }
+
 #text-em {
     width: 3em;
+    display: inline-block;
 }
+
 #text-rem {
     width: 1.5rem;
+    display: inline-block;
 }
+
 #font-face {
-    font-face: Calibri, sans-serif;
+    font-family: Calibri, sans-serif; /* Corrected from 'font-face' to 'font-family' */
 }
+
 #text-shadow {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-style: italic; /* Added italic for visual distinction */
 }
