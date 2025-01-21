@@ -10,7 +10,7 @@ body {
     line-height: 1.6;
 }
 header {
-    background-color: #4CAF50;
+    background-color: #FFCF39;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -46,7 +46,7 @@ h1#text-color {
 h2 {
     font-size: 1.8rem;
     margin: 20px 0;
-    color: #4CAF50;
+    color: #FFCF39;
 }
 ul {
     list-style-type: none;
